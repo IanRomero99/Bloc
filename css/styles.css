@@ -1,140 +1,183 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
-html {
-    font-size: 16px;
-}
-
-
-/* Redimensión de fuente utilizando rem */
-
-p {
-    font-size: 1rem;
-}
-
-h1 {
-    font-size: 3rem;
-    margin: 0
-}
-
-h3 {
-    font-size: 2rem;
-}
-
-
-/* clases predefinidas */
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-}
-
-
-/* Clear floats after the columns */
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-/* Diseño de columnas */
-
-.column-1 {
-    width: 100%;
-    float: left;
-}
-
-.column-2 {
-    width: 50%;
-    float: left;
-}
-
-.column-3 {
-    width: 33.33%;
-    float: left;
-}
-
-.column-4 {
-    width: 25%;
-    float: left;
-}
-
-.column-5 {
-    width: 20%;
-    float: left;
-}
-
-.column-6 {
-    width: 16.66%;
-    float: left;
-}
-
-
-/* Otras clases */
-
-header {
-    height: 100vh;
-    background-image: url("../img/evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.img {
-    width: 75%;
-}
-
-.gym-img {
-    background-image: url("../img/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg");
-    height: 60vh;
-    background-size: cover;
-    background-position: top;
-}
-
-.motos-img {
-    background-image: url("../img/jusdevoyage-QpteWNCggA0-unsplash.jpg");
-    height: 60vh;
-    background-size: cover;
-    background-position: center;
-}
-
-.rugby-img {
-    background-image: url("../img/olga-guryanova-ft7vJxwl2RY-unsplash.jpg");
-    height: 60vh;
-    background-size: cover;
-    background-position: center;
-}
-
-.f1-img {
-    background-image: url("../img/tim-carey-QhK_agWFAsE-unsplash.jpg");
-    height: 60vh;
-    background-size: cover;
-    background-position: top;
-}
-
-.padding-s {
-    padding: 1%;
-}
-
-@media only screen and (max-width: 600px) {
-    /*reglas*/
-    /* column-3 pasará de tener 33.33% a 100% */
-    .column-3 {
-        width: 100%;
-    }
-    /* column-4 pasará de tener 25% a 50% */
-    .column-4 {
-        width: 50%;
-    }
-    #caja-10 {
-        width: 100%;
-    }
-}
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+        html {
+            font-size: 16px;
+        }
+        /* Redimensión de fuente utilizando rem */
+        
+        p {
+            font-size: 1rem;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin: 0
+        }
+        
+        h3 {
+            font-size: 2rem;
+        }
+        /* clases predefinidas */
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+        }
+        /* Clear floats after the columns */
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .rownavidad {
+            background-color: cadetblue;
+            clear: both;
+            display: table;
+            width: 100%;
+        }
+        /* Diseño de columnas */
+        
+        .column-1 {
+            width: 100%;
+            float: left;
+        }
+        
+        .column-2 {
+            width: 50%;
+            float: left;
+        }
+        
+        .column-3 {
+            width: 33.33%;
+            float: left;
+        }
+        
+        .column-4 {
+            width: 25%;
+            float: left;
+        }
+        
+        .column-5 {
+            width: 20%;
+            float: left;
+        }
+        
+        .column-6 {
+            width: 16.66%;
+            float: left;
+        }
+        /* Otras clases */
+        
+        header {
+            height: 100vh;
+            background-image: url("../img/evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .flex {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .img {
+            width: 75%;
+        }
+        
+        .gym-img {
+            background-image: url("../img/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg");
+            height: 60vh;
+            background-size: cover;
+            background-position: top;
+        }
+        
+        .motos-img {
+            background-image: url("../img/jusdevoyage-QpteWNCggA0-unsplash.jpg");
+            height: 60vh;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .rugby-img {
+            background-image: url("../img/olga-guryanova-ft7vJxwl2RY-unsplash.jpg");
+            height: 60vh;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .f1-img {
+            background-image: url("../img/tim-carey-QhK_agWFAsE-unsplash.jpg");
+            height: 60vh;
+            background-size: cover;
+            background-position: top;
+        }
+        
+        .navidad1 {
+            background-image: url("../img/andy-holmes-rdXSpVhuFXw-unsplash.jpg");
+            height: 60vh;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .navidad2 {
+            background-image: url("../img/andy-holmes-tNlWvhqRRRw-unsplash.jpg");
+            height: 60vh;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .navidad3 {
+            background-image: url("../img/otto-espinal-1wGBEK6xjDw-unsplash.jpg");
+            height: 60vh;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .navidad4 {
+            background-image: url("../img/mark-farias-VHwLipv3h1M-unsplash.jpg");
+            height: 60vh;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .padding-s {
+            padding: 1%;
+        }
+        
+        .padding-a {
+            padding: 0%;
+        }
+        
+        footer {
+            width: 100%;
+            text-align: left;
+            float: left;
+            font-size: 1.5vw;
+            color: white;
+            background-color: black;
+        }
+        
+        #prefooter {
+            background-color: grey;
+            color: white;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            /*reglas*/
+            /* column-3 pasará de tener 33.33% a 100% */
+            .column-3 {
+                width: 100%;
+            }
+            /* column-4 pasará de tener 25% a 50% */
+            .column-4 {
+                width: 50%;
+            }
+            #caja-10 {
+                width: 100%;
+            }
+        }
